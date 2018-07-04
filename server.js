@@ -1,5 +1,7 @@
 // server.js
 // where your node app starts
+// The project Glitch URL:
+// https://nickel-coat.glitch.me
 
 // init project
 var express = require('express');
