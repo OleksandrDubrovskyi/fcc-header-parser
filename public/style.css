@@ -1,12 +1,18 @@
 /****** Main Styling ******/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
+	color: #315659;
+	background-color: #c4cbca;
 	text-align: center;
 	line-height: 1.4em;
+  padding-top: 60px;
 }
 
 .container {
@@ -18,8 +24,13 @@ h3 {
   margin-top: 30px;
 }
 
-.footer {
+footer {
 	margin-top: 40px;
+}
+
+footer a {
+  font-weight: bold;
+  color: #7c6c77;
 }
 
 .user-stories {
@@ -32,7 +43,7 @@ code {
   font-family: monospace;
   padding: 2px;
   color: black;
-  background-color: #fff;
+  background-color: #cedfd9;
 }
 ol {
 	list-style-position: outside;
